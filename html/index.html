@@ -1,0 +1,135 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&family=Sunflower&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="load_screen">
+        <div class="wrapper" id="load_screen1">
+            <div class="artboard">
+                <div id="watch">
+                    <div id="crown"></div>
+                    <div id="button"></div>
+                    <div id="band-up"></div>
+                    <div id="band-bottom"></div>
+                    <div id="outline">
+                        <div id="screen"></div>
+                    </div>
+                </div>
+                <div id="phone" class="ready">
+                    <div id="outline">
+                        <div id="screen"></div>
+                    </div>
+                    <div id="home"></div>
+                    <div id="camera"></div>
+                    <div id="sensor"></div>
+                    <div id="speaker"></div>
+                    <div id="lock"></div>
+                    <div id="silent"></div>
+                    <div id="volume-up"></div>
+                    <div id="volume-down"></div>
+                </div>
+                <div id="laptop" class="out">
+                    <div id="outline">
+                        <div id="screen"></div>
+                    </div>
+                    <div id="keyboard"></div>
+                    <div id="notch"></div>
+                    <div id="back"></div>
+                    <div id="camera"></div>
+                </div>
+            </div>
+            <div class="quote">
+                <span class="highlight">Coding<br /></span>
+                <span>Conquered<br /></span>
+                <span>my life</span>
+            </div>
+        </div>
+    </div>
+    <div id="home_screen">
+        <!-- <div class="container">
+        <div class="phone-shape">
+            <div class="phone-display">
+                <div class="graphic-guides">
+                    <div class="top"></div>
+                    <div class="right"></div>
+                    <div class="bottom"></div>
+                    <div class="left"></div>
+
+                </div>
+                <div class="iframe-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/SkENAjfVoNI" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="graphic-guides">
+                <div class="top"></div>
+                <div class="right"></div>
+                <div class="bottom"></div>
+                <div class="left"></div>
+                <div class="center"></div>
+            </div>
+            <div class="phone-hole"></div>
+            <div class="phone-button"></div>
+        </div>
+    </div> -->
+
+        <div id="inner_wrap">
+
+            <div id="wrapper" style="perspective: 1300px;">
+                <div class="phone view_2" id="phone_1" style="width: 360px; height: 640px;">
+                    <iframe src="https://youtube.pavanaditya.com/" id="frame_1"></iframe>
+                    <!-- <div>Arun gadu AP gadu</div> -->
+                </div>
+            </div>
+
+            <div id="controls">
+                <div>
+                    <!-- <label class="view-toggle" for="iframePerspective">Add perspective:</label> -->
+                    <input type="checkbox" id="iframePerspective" checked="true"
+                        style="opacity: 0; pointer-events: none;">
+                </div>
+            </div>
+
+            <div id="phone-controls" align="right">
+
+                <!-- <button class="view-toggle" onclick="updateIframe()">Perspective</button> -->
+                <button class="view-toggle" onclick="viewFull()">Full Screen View</button>
+                <div id="views">
+                    <button value="1">Table View</button>
+                    <button value="2">Front View</button>
+                </div>
+
+                <div id="phones">
+                    <button value="1">iPhone 6</button>
+                    <button value="2">Oneplus 6T</button>
+                    <button value="5">Asus 6z</button>
+                    <button value="3">Pixel 3XL</button>
+                    <button value="4">K20 pro</button>
+                    <button value="6">Redmi note 7</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="outer_wrap">
+            <button id="atm-phone-controls" class="view-toggle atm-btn" onclick="viewPhone()">Automated Screen
+                View</button>
+            <iframe src="https://youtube.pavanaditya.com/" id="frame_1" width="100%" height="100%" style="border: none;"></iframe>
+            <!-- <div>Arun gadu AP gadu</div> -->
+        </div>
+
+    </div>
+    <link rel=" stylesheet" type="text/css" href="../scss/main.scss">
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
