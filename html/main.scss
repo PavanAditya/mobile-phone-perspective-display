@@ -38,7 +38,7 @@ body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background: #1b1b1b;
+  background: #313131;
 }
 .artboard {
   position: relative;
@@ -698,7 +698,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   height: 100%;
   color: #fff;
-  background: #1b1b1b !important;
+  background: #313131 !important;
 }
 
 #home_screen {
@@ -707,7 +707,7 @@ body {
 }
 
 #container {
-  background: #1b1b1b !important;
+  background: #313131 !important;
 }
 
 /*Basic Phone styling*/
@@ -878,6 +878,7 @@ body {
   border-radius: 5px;
   background-color: #eee;
   box-shadow: 0px 0px 100px 0px rgba(100, 100, 100, 0.2);
+  cursor: pointer;
 }
 
 .view-toggle {
